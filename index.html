@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">Acerca de mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>
+          Desarrollador web con experiencia en HTML, CSS, JavaScript y más. Me
+          apasiona la creación de sitios web dinámicos y atractivos.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div class="project">
+          <h3>Proyecto 1: Sitio Web Personal</h3>
+          <p>Un sitio web para mostrar mi trabajo y habilidades.</p>
+        </div>
+        <div class="project">
+          <h3>Proyecto 2: Aplicación de Tareas</h3>
+          <p>
+            Una app para gestionar tareas con JavaScript y almacenamiento local.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form action="enviar_correo.php" method="POST">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo Electrónico:Antony Casique</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <section class="data">
+      <table class="tabla"></table>
+      <tr>
+        <th>hola</th>
+        <th>como</th>
+        <th>estas</th>
+        <th>ca</th>
+      </tr>
+    </section>
+    <footer>
+      <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
